@@ -36,8 +36,8 @@ public class LoginController {
         return "redirect:/livros/html";
     }
 
-    @GetMapping("/logout")
-    public String sair(HttpSession session) {
+    @PostMapping("/logout")
+    public String sair(HttpSession session)  {
         session.invalidate();
         return "redirect:/login";
     }

@@ -67,4 +67,4 @@ Depois reinicie a aplicação.
 | `/sugestoes` | POST | grava sugestão | público |
 | `/login` | GET | formulário | público |
 | `/login` | POST | autentica | público |
-| `/logout` | GET | encerra a sessão | público |
+| `/logout` | POST | encerra a sessão | público |
